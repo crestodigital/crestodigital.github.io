@@ -62,7 +62,7 @@ button { cursor: pointer; }
 .hero-glow-two { width: 260px; height: 260px; right: 31%; bottom: 8%; background: rgba(255,106,61,.06); }
 .hero-grid { position: relative; display: grid; grid-template-columns: 1.04fr .96fr; align-items: center; gap: 52px; }
 .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--navy); font-size: 12px; font-weight: 850; letter-spacing: .15em; text-transform: uppercase; }
-.eyebrow span { width: 30px; height: 2px; background: linear-gradient(90deg, var(--orange), var(--cyan)); }
+.eyebrow span { display: none; }
 .eyebrow-dark { color: var(--navy); }
 .eyebrow-light { color: rgba(255,255,255,.82); }
 .hero h1, .section-heading h2, .fit h2, .why h2, .contact h2 { margin: 20px 0 0; font-size: clamp(43px, 5.35vw, 72px); line-height: 1.03; letter-spacing: -.048em; color: var(--navy); }
