@@ -18,6 +18,7 @@
 
 ## Featured guides
 
+- [Google Business Profile Not Showing After Verification](https://crestodigital.github.io/insights/google-business-profile-not-showing-after-verification/): Diagnose publication, verification, restriction, duplicate and local ranking issues with 12 practical fixes.
 - [Paid Advertising Management Pricing](https://crestodigital.github.io/insights/paid-advertising-management-pricing/): Agency fees, advertising spend, pricing models, platform costs, ownership and selection guidance.
 - [Decoupled Commerce Architecture](https://crestodigital.github.io/insights/decoupled-commerce-architecture/): Headless ecommerce systems, APIs, data flows, B2B use cases and migration decisions.
 - [AI SEO, AEO, GEO and XEO Audit Tools](https://crestodigital.github.io/insights/best-ai-seo-aeo-geo-audit-tools-2026/): Comparison of technical SEO and AI visibility audit platforms.
