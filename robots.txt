@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://crestodigital.netlify.app/sitemap.xml
+Sitemap: https://crestodigital.github.io/sitemap.xml
