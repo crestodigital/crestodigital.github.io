@@ -2,7 +2,10 @@ const SITE_CONFIG = {
   contactEmail: "hello@crestodigital.com" // Replace here if your real address is different.
 };
 
-document.getElementById("year").textContent = new Date().getFullYear();
+const yearElement = document.getElementById("year");
+if (yearElement) {
+  yearElement.textContent = new Date().getFullYear();
+}
 
 document.querySelectorAll("[data-contact-email]").forEach((link) => {
   link.textContent = SITE_CONFIG.contactEmail;
@@ -25,16 +28,22 @@ nav?.querySelectorAll("a").forEach((link) => {
   });
 });
 
-const revealObserver = new IntersectionObserver((entries, observer) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("is-visible");
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.12 });
+const revealElements = document.querySelectorAll(".reveal");
 
-document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe(element));
+if ("IntersectionObserver" in window) {
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  revealElements.forEach((element) => revealObserver.observe(element));
+} else {
+  revealElements.forEach((element) => element.classList.add("is-visible"));
+}
 
 const form = document.getElementById("contact-form");
 form?.addEventListener("submit", (event) => {
