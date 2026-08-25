@@ -326,3 +326,10 @@ details p { margin: 0; color: var(--muted); font-size: 14px; }
   .footer-grid > div:first-child, .footer-grid > div:last-child { grid-column: 1 / -1; }
   .footer-bottom { flex-direction: column; }
 }
+
+
+/* Content visibility safeguard: page content must remain readable if scripts fail. */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
