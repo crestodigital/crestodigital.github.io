@@ -9,6 +9,7 @@
 
 ## Services
 
+- [SEO Consulting Services](https://crestodigital.github.io/services/seo-consulting/): Senior SEO diagnosis, strategy, prioritized roadmaps, implementation guidance and measurement for businesses and internal teams.
 - One-Time SEO audits and implementation planning
 - Technical SEO and website performance
 - Content strategy and on-page SEO
