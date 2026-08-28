@@ -20,6 +20,7 @@
 ## Featured guides
 
 - [What Is SEO Consulting?](https://crestodigital.github.io/insights/what-is-seo-consulting/): Services, process, deliverables, pricing models, benefits, measurement and consultant selection guidance.
+- [What Does an SEO Consultant Do?](https://crestodigital.github.io/insights/what-does-an-seo-consultant-do/): Responsibilities, day-to-day work, skills, deliverables, practical examples and measurement guidance for the SEO consultant role.
 - [What Are Google goto URLs?](https://crestodigital.github.io/insights/google-goto-urls/): Confirmed rollout, passthrough redirect mechanics, potential impact on SEO tools and practical analytics monitoring.
 - [Google Business Profile Not Showing After Verification](https://crestodigital.github.io/insights/google-business-profile-not-showing-after-verification/): Diagnose publication, verification, restriction, duplicate and local ranking issues with 12 practical fixes.
 - [Paid Advertising Management Pricing](https://crestodigital.github.io/insights/paid-advertising-management-pricing/): Agency fees, advertising spend, pricing models, platform costs, ownership and selection guidance.
