@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Old SEOquake and rebuilt SEOquake workflow comparison</title>
+<desc id="desc">A visual comparison between the older SEOquake workflow with many parameters and the rebuilt workflow using Quick View and Full Report.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff7ee"/><stop offset=".55" stop-color="#f8fbfc"/><stop offset="1" stop-color="#e8f7f8"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0b2545" flood-opacity=".12"/></filter>
+</defs>
+<rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+<text x="80" y="92" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#0b2545">SEOquake then and now</text>
+<text x="80" y="142" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5f7186">The workflow changed more than the visual design.</text>
+
+<g filter="url(#shadow)">
+  <rect x="80" y="205" width="610" height="545" rx="28" fill="#ffffff" stroke="#dfe7ee"/>
+  <rect x="80" y="205" width="610" height="92" rx="28" fill="#0b2545"/>
+  <circle cx="120" cy="251" r="8" fill="#ff6a3d"/><circle cx="146" cy="251" r="8" fill="#e8c547"/><circle cx="172" cy="251" r="8" fill="#20c5d8"/>
+  <text x="220" y="263" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Older SEOquake</text>
+  <rect x="120" y="335" width="220" height="360" rx="18" fill="#f6f9fc"/>
+  <text x="150" y="382" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#0b2545">Main workflow</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#294761">
+    <text x="150" y="435">Panel</text><text x="150" y="485">SERP Overlay</text><text x="150" y="535">Parameters</text><text x="150" y="585">Index counts</text><text x="150" y="635">Cache data</text>
+  </g>
+  <g fill="#e88039"><circle cx="132" cy="428" r="6"/><circle cx="132" cy="478" r="6"/><circle cx="132" cy="528" r="6"/><circle cx="132" cy="578" r="6"/><circle cx="132" cy="628" r="6"/></g>
+  <text x="385" y="388" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#0b2545">How it felt</text>
+  <text x="385" y="434" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5f7186">Lots of visible metrics</text>
+  <text x="385" y="474" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5f7186">Useful SERP scanning</text>
+  <text x="385" y="514" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5f7186">Highly configurable</text>
+  <text x="385" y="554" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5f7186">Some data became stale</text>
+  <rect x="385" y="600" width="250" height="72" rx="16" fill="#fff3ec"/>
+  <text x="410" y="630" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#b25024">Biggest strength</text>
+  <text x="410" y="657" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#773318">Fast, broad visibility</text>
+</g>
+
+<g>
+  <circle cx="800" cy="480" r="52" fill="#e88039"/>
+  <path d="M776 480h42m-12-14 14 14-14 14" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<g filter="url(#shadow)">
+  <rect x="910" y="205" width="610" height="545" rx="28" fill="#ffffff" stroke="#dfe7ee"/>
+  <rect x="910" y="205" width="610" height="92" rx="28" fill="#008fa1"/>
+  <circle cx="950" cy="251" r="8" fill="#ff6a3d"/><circle cx="976" cy="251" r="8" fill="#e8c547"/><circle cx="1002" cy="251" r="8" fill="#ffffff" opacity=".75"/>
+  <text x="1050" y="263" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Rebuilt SEOquake</text>
+  <rect x="950" y="335" width="520" height="78" rx="18" fill="#e8f7f8"/>
+  <text x="980" y="383" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#006d7c">Quick View</text>
+  <rect x="950" y="432" width="520" height="78" rx="18" fill="#f6f9fc"/>
+  <text x="980" y="480" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#0b2545">Full Report</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#294761">
+    <text x="980" y="558">28 page checks</text><text x="1230" y="558">Link report</text>
+    <text x="980" y="604">Schema inspection</text><text x="1230" y="604">SEObar</text>
+    <text x="980" y="650">CSV and PDF exports</text><text x="1230" y="650">Semrush data</text>
+  </g>
+  <g fill="#168663"><circle cx="962" cy="551" r="6"/><circle cx="1212" cy="551" r="6"/><circle cx="962" cy="597" r="6"/><circle cx="1212" cy="597" r="6"/><circle cx="962" cy="643" r="6"/><circle cx="1212" cy="643" r="6"/></g>
+  <rect x="950" y="690" width="520" height="40" rx="12" fill="#eef8f3"/>
+  <text x="980" y="716" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#168663">Cleaner workflow, fewer unsupported metrics</text>
+</g>
+</svg>
