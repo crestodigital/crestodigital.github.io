@@ -19,6 +19,7 @@
 
 ## Featured guides
 
+- [SEOquake Alternatives 2026](https://crestodigital.github.io/insights/seoquake-alternatives-2026/): Why SEOquake was rebuilt, its new features, confirmed missing legacy features and practical alternatives for SERPs, links and page auditing.
 - [What Is SEO Consulting?](https://crestodigital.github.io/insights/what-is-seo-consulting/): Services, process, deliverables, pricing models, benefits, measurement and consultant selection guidance.
 - [What Does an SEO Consultant Do?](https://crestodigital.github.io/insights/what-does-an-seo-consultant-do/): Responsibilities, day-to-day work, skills, deliverables, practical examples and measurement guidance for the SEO consultant role.
 - [Why Backlinks Matter for SEO and AI Search](https://crestodigital.github.io/insights/why-backlinks-matter/): Evidence, benefits, link types, 12 quality signals, 30 ethical link earning methods, outreach guidance and measurement.
