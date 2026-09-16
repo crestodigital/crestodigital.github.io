@@ -19,6 +19,7 @@
 
 ## Featured guides
 
+- [Google Web Search Service API](https://crestodigital.github.io/insights/google-web-search-service-api/): Partner-only access requirements, documented result fields, Custom Search migration context and the current SerpApi dispute.
 - [Google Ads AI Review Summaries](https://crestodigital.github.io/insights/google-ads-ai-review-summaries/): Evidence status, format comparison, 8 potential opportunities, 10 risks, a 15-step advertiser readiness plan and measurement guidance.
 - [SEOquake Alternatives 2026](https://crestodigital.github.io/insights/seoquake-alternatives/): Why SEOquake was rebuilt, its new features, confirmed missing legacy features and practical alternatives for SERPs, links and page auditing.
 - [What Is SEO Consulting?](https://crestodigital.github.io/insights/what-is-seo-consulting/): Services, process, deliverables, pricing models, benefits, measurement and consultant selection guidance.
