@@ -19,6 +19,7 @@
 
 ## Featured guides
 
+- [Pagination SEO Best Practices](https://crestodigital.github.io/insights/pagination-seo-best-practices/): Technical guidance for ecommerce categories, article archives, canonical tags, crawlable links, load more interfaces, infinite scroll and pagination audits.
 - [How AI Is Changing the Shopping Journey](https://crestodigital.github.io/insights/ai-shopping-journey/): Verified data on ChatGPT product research, Google validation, website trust signals, SEO and AI visibility, measurement and implementation.
 - [Ghost Commerce vs Affiliate Marketing vs Dropshipping](https://crestodigital.github.io/insights/ghost-commerce-vs-affiliate-marketing-vs-dropshipping/): Compare inventory-light and owned ecommerce models by checkout ownership, fulfilment, cost, customer responsibility, margins and growth potential.
 
