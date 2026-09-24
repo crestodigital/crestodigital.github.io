@@ -19,6 +19,8 @@
 
 ## Featured guides
 
+- [OpenClaw vs Hermes Agent for SEO Automation](https://crestodigital.github.io/insights/openclaw-vs-hermes-agent-seo-automation/): Evidence-led comparison of reusable skills, scheduling, multi-agent routing, security, costs, deployment options and fifteen SEO automation tasks.
+
 - [How to Move a Google Business Profile](https://crestodigital.github.io/insights/move-google-business-profile/): A practical relocation guide covering review continuity, address edits, reverification, duplicate profiles, local visibility and post-move monitoring.
 - [Pagination SEO Best Practices](https://crestodigital.github.io/insights/pagination-seo-best-practices/): Technical guidance for ecommerce categories, article archives, canonical tags, crawlable links, load more interfaces, infinite scroll and pagination audits.
 - [How AI Is Changing the Shopping Journey](https://crestodigital.github.io/insights/ai-shopping-journey/): Verified data on ChatGPT product research, Google validation, website trust signals, SEO and AI visibility, measurement and implementation.
