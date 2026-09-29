@@ -19,6 +19,8 @@
 
 ## Featured guides
 
+- [SEO and CRO: How to Turn Organic Traffic Into More Conversions](https://crestodigital.github.io/insights/seo-and-cro/): Evidence-led framework for connecting organic visibility, search intent, conversion measurement, experimentation, technical safeguards and business outcomes.
+
 - [OpenClaw vs Hermes Agent for SEO Automation](https://crestodigital.github.io/insights/openclaw-vs-hermes-agent-seo-automation/): Evidence-led comparison of reusable skills, scheduling, multi-agent routing, security, costs, deployment options and fifteen SEO automation tasks.
 
 - [How to Move a Google Business Profile](https://crestodigital.github.io/insights/move-google-business-profile/): A practical relocation guide covering review continuity, address edits, reverification, duplicate profiles, local visibility and post-move monitoring.
