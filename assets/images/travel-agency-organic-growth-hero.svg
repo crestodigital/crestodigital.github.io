@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">Organic growth for travel agencies</title><desc id="d">A refined illustrated travel booking journey showing discovery, planning, enquiry, booking and referrals, against a mountainous travel scene.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071A31"/><stop offset=".62" stop-color="#0C3555"/><stop offset="1" stop-color="#11677B"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123A5A"/><stop offset="1" stop-color="#08253E"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2CB8CD"/><stop offset="1" stop-color="#115374"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="1290" cy="188" r="240" fill="#15A4B5" opacity=".12"/><circle cx="240" cy="760" r="380" fill="#20C5DB" opacity=".07"/>
+<g opacity=".40" fill="none" stroke="#62D2DD" stroke-width="2"><path d="M-50 687 Q330 460 770 662 T1670 530"/><path d="M-80 740 Q400 560 790 736 T1710 596" opacity=".45"/></g>
+<path d="M0 693 L186 506 308 622 463 400 676 707 882 509 1050 674 1280 423 1463 601 1600 475 V900 H0Z" fill="#1A5876" opacity=".38"/>
+<path d="M0 784 L260 617 471 766 684 580 914 795 1108 628 1396 759 1600 665 V900 H0Z" fill="#163C60" opacity=".70"/>
+<path d="M0 845 Q350 725 762 858 T1600 806 V900 H0Z" fill="#07243A" opacity=".8"/>
+<g filter="url(#shadow)">
+<rect x="125" y="118" width="1350" height="646" rx="34" fill="url(#card)" stroke="#5DBACD" stroke-opacity=".36"/>
+<rect x="158" y="153" width="1284" height="576" rx="24" fill="#09263E" opacity=".88"/>
+</g>
+<text x="216" y="214" fill="#91E4ED" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" letter-spacing="4">THE ORGANIC TRAVEL SALES JOURNEY</text>
+<text x="216" y="298" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-weight="750" font-size="65">From inspiration</text>
+<text x="216" y="371" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-weight="750" font-size="65">to confirmed bookings.</text>
+<text x="216" y="425" fill="#B9D5E3" font-family="Arial,Helvetica,sans-serif" font-size="24">SEO  ·  Social media  ·  Trust  ·  Sales  ·  Loyalty</text>
+<path d="M250 572 C470 518 557 664 772 595 S1120 518 1352 592" stroke="#38D0DD" stroke-width="5" fill="none" stroke-dasharray="10 16"/>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+<g transform="translate(265 557)"><circle r="46" fill="#16A4B7"/><circle r="29" fill="none" stroke="#fff" stroke-width="4"/><path d="M0 -20 V20 M-20 0 H20" stroke="#fff" stroke-width="3"/><text y="80" font-size="22" fill="#fff" font-weight="700">Discover</text></g>
+<g transform="translate(532 584)"><circle r="46" fill="#156E98"/><rect x="-19" y="-24" width="38" height="45" rx="4" fill="none" stroke="#fff" stroke-width="4"/><path d="M-11 -10 H11 M-11 1 H11 M-11 12 H4" stroke="#fff" stroke-width="3"/><text y="80" font-size="22" fill="#fff" font-weight="700">Plan</text></g>
+<g transform="translate(799 590)"><circle r="46" fill="#1B7FA3"/><path d="M-25 -18 H25 V13 H-2 L-17 26 V13 H-25Z" fill="none" stroke="#fff" stroke-width="4"/><text y="80" font-size="22" fill="#fff" font-weight="700">Enquire</text></g>
+<g transform="translate(1065 560)"><circle r="46" fill="#FF6A3D"/><path d="M-20 1 L-3 18 L24 -17" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text y="80" font-size="22" fill="#fff" font-weight="700">Book</text></g>
+<g transform="translate(1333 588)"><circle r="46" fill="#1F9C8A"/><path d="M0 -25 L7 -7 L26 -5 L11 7 L16 27 L0 16 L-16 27 L-11 7 L-26 -5 L-7 -7Z" fill="none" stroke="#fff" stroke-width="3"/><text y="80" font-size="22" fill="#fff" font-weight="700">Refer</text></g>
+</g>
+</svg>
