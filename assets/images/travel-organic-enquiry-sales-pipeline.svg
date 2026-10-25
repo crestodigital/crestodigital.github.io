@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Cresto Digital travel marketing editorial illustration</title>
+<desc id="desc">Original vector illustration accompanying a global guide to organic travel agency sales growth.</desc>
+<defs><linearGradient id="page" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#F5F9FB"/><stop offset="1" stop-color="#E6F2F6"/></linearGradient><linearGradient id="navy" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#071A31"/><stop offset="1" stop-color="#194969"/></linearGradient><linearGradient id="ocean" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#23BCD0"/><stop offset="1" stop-color="#0E7197"/></linearGradient><filter id="shadow" x="-20%" y="-40%" width="150%" height="190%"><feDropShadow dx="0" dy="15" stdDeviation="22" flood-color="#0B2545" flood-opacity=".12"/></filter></defs>
+<rect width="1600" height="900" fill="url(#page)"/>
+
+<rect x="0" y="0" width="1600" height="900" fill="#F4F8FA"/>
+<path d="M0 0 H1600 V184 L0 294Z" fill="#0B2545"/>
+<text x="94" y="92" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="4" fill="#63D6E0">THE BOOKING ENGINE</text>
+<text x="94" y="165" font-family="Arial,sans-serif" font-size="55" font-weight="700" fill="#FFFFFF">A better enquiry process closes the gap</text>
+<text x="94" y="211" font-family="Arial,sans-serif" font-size="23" fill="#C0DCE7">From first message to a clear proposal and confirmed booking.</text>
+<g filter="url(#shadow)">
+<rect x="90" y="314" width="419" height="467" rx="28" fill="#FFFFFF" stroke="#D3E2E9"/>
+<rect x="91" y="314" width="417" height="87" rx="26" fill="#E8F6F7"/>
+<text x="122" y="367" font-family="Arial,sans-serif" font-size="27" fill="#0B2545" font-weight="700">New travel enquiry</text>
+<text x="123" y="449" font-family="Arial,sans-serif" font-size="17" fill="#5F7186">DATES + PARTY SIZE</text>
+<rect x="122" y="468" width="354" height="48" rx="11" fill="#F0F6F8"/>
+<text x="143" y="498" font-family="Arial,sans-serif" font-size="19" fill="#17324B">Travel dates and guests</text>
+<text x="123" y="560" font-family="Arial,sans-serif" font-size="17" fill="#5F7186">INTERESTS + BUDGET</text>
+<rect x="122" y="581" width="354" height="48" rx="11" fill="#F0F6F8"/>
+<text x="143" y="611" font-family="Arial,sans-serif" font-size="19" fill="#17324B">Preferred trip style</text>
+<rect x="122" y="682" width="354" height="63" rx="13" fill="#FF6A3D"/>
+<text x="299" y="722" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Request a proposal</text>
+</g>
+<path d="M535 543 H617" stroke="#10A5B3" stroke-width="7" stroke-linecap="round"/>
+<path d="M598 523 L618 543 L598 563" stroke="#10A5B3" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#shadow)">
+<rect x="644" y="314" width="409" height="467" rx="28" fill="#FFFFFF" stroke="#D3E2E9"/>
+<rect x="645" y="314" width="407" height="87" rx="26" fill="#E8F6F7"/>
+<text x="678" y="367" font-family="Arial,sans-serif" font-size="27" fill="#0B2545" font-weight="700">Sales pipeline</text>
+<circle cx="705" cy="445" r="20" fill="#D5E8ED"/><text x="742" y="452" font-family="Arial,sans-serif" fill="#17324B" font-size="22" font-weight="600">Received</text><path d="M705 467 V498" stroke="#BAD8DD" stroke-width="5"/><circle cx="705" cy="520" r="20" fill="#AEDDE2"/><text x="742" y="527" font-family="Arial,sans-serif" fill="#17324B" font-size="22" font-weight="600">Qualified</text><path d="M705 542 V573" stroke="#BAD8DD" stroke-width="5"/><circle cx="705" cy="595" r="20" fill="#70B9C6"/><text x="742" y="602" font-family="Arial,sans-serif" fill="#17324B" font-size="22" font-weight="600">Proposal sent</text><path d="M705 617 V648" stroke="#BAD8DD" stroke-width="5"/><circle cx="705" cy="670" r="20" fill="#138A74"/><text x="742" y="677" font-family="Arial,sans-serif" fill="#17324B" font-size="22" font-weight="600">Confirmed</text>
+</g>
+<path d="M1073 543 H1155" stroke="#10A5B3" stroke-width="7" stroke-linecap="round"/>
+<path d="M1136 523 L1156 543 L1136 563" stroke="#10A5B3" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#shadow)">
+<rect x="1180" y="314" width="330" height="467" rx="28" fill="#0B2545"/>
+<circle cx="1345" cy="452" r="77" fill="#138A74"/>
+<path d="M1308 450 L1333 476 L1380 428" fill="none" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1345" y="581" text-anchor="middle" font-family="Arial,sans-serif" fill="#FFFFFF" font-weight="700" font-size="31">Booked</text>
+<text x="1345" y="621" text-anchor="middle" font-family="Arial,sans-serif" fill="#C6DDE8" font-size="18">Clear confirmation</text>
+<text x="1345" y="649" text-anchor="middle" font-family="Arial,sans-serif" fill="#C6DDE8" font-size="18">and next steps</text>
+<rect x="1244" y="692" width="202" height="46" rx="23" fill="#FF6A3D"/>
+<text x="1345" y="721" text-anchor="middle" font-family="Arial,sans-serif" fill="#FFFFFF" font-size="17" font-weight="700">DELIVER + DELIGHT</text>
+</g>
+
+</svg>
