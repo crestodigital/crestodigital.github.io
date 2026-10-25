@@ -71,3 +71,43 @@ const xml = [
 
 writeFileSync(join(root, "sitemap.xml"), xml, "utf8");
 console.log(`Generated sitemap.xml with ${pages.length} indexable pages.`);
+
+
+// LIVE_CHECK_2026_10_25: temporary public verification, removed after this check.
+if (process.env.GITHUB_ACTIONS === "true") {
+ const tests=[
+  {label:"Article HTML",path:"/insights/how-travel-agencies-grow-sales-organically/",lookFor:"full-width-article-headings-2026"},
+  {label:"Insights Hub",path:"/insights/",lookFor:"How Travel Agencies Grow Sales Organically"},
+  {label:"Current SVG Hero",path:"/assets/images/travel-agency-organic-growth-hero.svg",lookFor:"Free-floating travel sales journey"},
+  {label:"Body image 1",path:"/assets/images/travel-organic-customer-journey.svg",lookFor:"<svg"},
+  {label:"Body image 2",path:"/assets/images/travel-organic-seo-content-strategy.svg",lookFor:"<svg"},
+  {label:"Body image 3",path:"/assets/images/travel-organic-social-content.svg",lookFor:"<svg"},
+  {label:"Body image 4",path:"/assets/images/travel-organic-enquiry-sales-pipeline.svg",lookFor:"<svg"}
+ ];
+ for(const t of tests){
+  try {
+   const response=await fetch(new URL(t.path,siteOrigin).href,{
+    headers:{"Cache-Control":"no-cache","Pragma":"no-cache"},
+    signal:AbortSignal.timeout(14000)});
+   const html=await response.text();
+   const data={label:t.label,path:t.path,status:response.status,updated:html.includes(t.lookFor),bytes:html.length,etag:response.headers.get("etag"),age:response.headers.get("age"),cache:response.headers.get("x-cache")};
+   if(t.label==="Article HTML"){
+    Object.assign(data,{
+     correctTitle:html.includes("<h1>How Travel Agencies Grow Sales Organically</h1>"),
+     fullWidthCss:html.includes("max-width:none!important"),
+     desktopWide:html.includes("width:min(1480px,calc(100% - 64px))"),
+     mobileFullWidth:html.includes("width:calc(100% - 30px)"),
+     bodyFigures:(html.match(/class="editorial-figure"/g)||[]).length,
+     faqCount:(html.match(/<details><summary>/g)||[]).length,
+     svgCurrentlyUsed:html.includes("/assets/images/travel-agency-organic-growth-hero.svg"),
+     realisticPngCurrentlyUsed:html.includes("/assets/images/travel-agency-organic-growth-hero.png"),
+     oldEmDashes:html.includes("—"),
+     nofollow:html.includes('rel="nofollow noopener noreferrer"'),
+     containsOTAs:html.includes("Keep OTAs and Direct Bookings in Perspective"),
+     tableOfContents:html.includes('class="toc" aria-label="Table of contents"')
+    });
+   }
+   console.log("PUBLIC_VERIFY_2026 "+JSON.stringify(data));
+  } catch(e){console.log("PUBLIC_VERIFY_2026 "+JSON.stringify({label:t.label,path:t.path,error:String(e)}));}
+ }
+}
