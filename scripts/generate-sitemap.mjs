@@ -71,21 +71,3 @@ const xml = [
 
 writeFileSync(join(root, "sitemap.xml"), xml, "utf8");
 console.log(`Generated sitemap.xml with ${pages.length} indexable pages.`);
-
-
-// TEMP_POSTDEPLOY_FOLLOW_CHECK
-if(process.env.GITHUB_ACTIONS==="true"){
- const url="https://crestodigital.github.io/insights/how-travel-agencies-grow-sales-organically/?follow_check="+Date.now();
- try {
-  const response=await fetch(url,{signal:AbortSignal.timeout(15000)});
-  const body=await response.text();
-  console.log("FOLLOWED_LINKS_PUBLIC "+JSON.stringify({
-   http:response.status,
-   anchor1:body.includes('<a href="https://wonderofceylon.com/planner">Sri Lanka Trip Planner</a>'),
-   anchor2:body.includes('<a href="https://wonderofceylon.com/directory/tour-agencies">best travel agency</a>'),
-   nofollowOnLinks:body.includes('href="https://wonderofceylon.com/planner" rel="nofollow"')||
-    body.includes('href="https://wonderofceylon.com/directory/tour-agencies" rel="nofollow"'),
-   bytes:body.length,date:response.headers.get("date")
-  }));
- }catch(e){console.log("FOLLOWED_LINKS_PUBLIC "+JSON.stringify({error:String(e)}))}
-}
