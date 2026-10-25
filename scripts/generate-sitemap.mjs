@@ -104,3 +104,27 @@ if (process.env.GITHUB_ACTIONS === "true") {
     }
   }
 }
+
+
+if (process.env.GITHUB_ACTIONS === "true") {
+  for (const [path, needle] of [
+    ["/insights/", "<h2>How Travel Agencies Grow Sales Organically</h2>"],
+    ["/insights/how-travel-agencies-grow-sales-organically/", "<h1>How Travel Agencies Grow Sales Organically</h1>"],
+    ["/assets/images/travel-agency-organic-growth-hero.svg", "Free-floating travel sales journey"]
+  ]) {
+    try {
+      const response = await fetch(siteOrigin + path, {
+        signal: AbortSignal.timeout(15000), redirect: "follow"
+      });
+      const body = await response.text();
+      console.log("PUBLIC_SITE_PLAIN_URL " + JSON.stringify({
+        path, status: response.status, hasLatestContent: body.includes(needle),
+        bytes: body.length, age: response.headers.get("age"),
+        etag: response.headers.get("etag"), xCache: response.headers.get("x-cache"),
+        cacheControl: response.headers.get("cache-control"), date: response.headers.get("date")
+      }));
+    } catch(e) {
+      console.log("PUBLIC_SITE_PLAIN_URL "+JSON.stringify({path,error:String(e)}));
+    }
+  }
+}
