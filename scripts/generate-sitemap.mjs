@@ -76,7 +76,7 @@ console.log(`Generated sitemap.xml with ${pages.length} indexable pages.`);
 // TEMP_TRAVEL_LINK_VERIFY_2026
 if(process.env.GITHUB_ACTIONS==="true"){
  for(const t of [
-  {type:"planner",url:"http://wonderofceylon.com/tools/trip-planner"},
+  {type:"planner",url:"https://wonderofceylon.com/planner"},
   {type:"directory",url:"https://wonderofceylon.com/directory/tour-agencies"},
   {type:"article",url:"https://crestodigital.github.io/insights/how-travel-agencies-grow-sales-organically/"}
  ]){
@@ -85,7 +85,7 @@ if(process.env.GITHUB_ACTIONS==="true"){
    const body=await response.text();
    const report={type:t.type,original:t.url,status:response.status,finalUrl:response.url,bytes:body.length};
    if(t.type==="article"){
-     report.plannerAnchor=body.includes('<a href="http://wonderofceylon.com/tools/trip-planner">Sri Lanka Trip Planner</a>');
+     report.plannerAnchor=body.includes('<a href="https://wonderofceylon.com/planner">Sri Lanka Trip Planner</a>');
      report.directoryAnchor=body.includes('<a href="https://wonderofceylon.com/directory/tour-agencies">best travel agency</a>');
      report.oldNoFollowForThese=body.includes('wonderofceylon.com/tools/trip-planner" rel="nofollow"')||body.includes('wonderofceylon.com/directory/tour-agencies" rel="nofollow"');
    }
