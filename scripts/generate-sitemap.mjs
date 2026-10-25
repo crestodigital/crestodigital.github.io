@@ -71,26 +71,3 @@ const xml = [
 
 writeFileSync(join(root, "sitemap.xml"), xml, "utf8");
 console.log(`Generated sitemap.xml with ${pages.length} indexable pages.`);
-
-
-// TEMP_REAL_HERO_PUBLIC_VERIFICATION
-if(process.env.GITHUB_ACTIONS==="true"){
-  for(const item of [
-    {path:"/assets/images/travel-agency-organic-growth-hero.jpg",image:true},
-    {path:"/insights/how-travel-agencies-grow-sales-organically/",image:false},
-    {path:"/insights/",image:false}
-  ]){
-    try{
-      const response=await fetch(siteOrigin+item.path,{signal:AbortSignal.timeout(16000)});
-      const body=item.image?Buffer.from(await response.arrayBuffer()):await response.text();
-      console.log("HERO_LIVE_CHECK "+JSON.stringify({
-        path:item.path,status:response.status,contentType:response.headers.get("content-type"),bytes:body.length,
-        correct:imageCheck(item,body),cache:response.headers.get("x-cache")
-      }));
-    }catch(err){console.log("HERO_LIVE_CHECK "+JSON.stringify({path:item.path,error:String(err)}))}
-  }
-}
-function imageCheck(item,body){
- if(item.image)return body.length>30000&&body[0]===255&&body[1]===216&&body[2]===255;
- return body.includes("travel-agency-organic-growth-hero.jpg")&&!body.includes("travel-agency-organic-growth-hero.svg");
-}
