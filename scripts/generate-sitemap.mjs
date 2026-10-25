@@ -71,3 +71,36 @@ const xml = [
 
 writeFileSync(join(root, "sitemap.xml"), xml, "utf8");
 console.log(`Generated sitemap.xml with ${pages.length} indexable pages.`);
+
+
+// PUBLIC_DEPLOY_DIAGNOSTIC: read-only external check during GitHub Actions.
+// Does not modify site files, page content or publishing settings.
+if (process.env.GITHUB_ACTIONS === "true") {
+  const tests = [
+    { path: "/insights/", needle: "<h2>How Travel Agencies Grow Sales Organically</h2>" },
+    { path: "/insights/how-travel-agencies-grow-sales-organically/", needle: "<h1>How Travel Agencies Grow Sales Organically</h1>" },
+    { path: "/assets/images/travel-agency-organic-growth-hero.svg", needle: "Free-floating travel sales journey" }
+  ];
+  for (const test of tests) {
+    try {
+      const u = new URL(siteOrigin + test.path);
+      u.searchParams.set("deploy_verify", Date.now().toString());
+      const response = await fetch(u.href, {
+        headers: { "Cache-Control": "no-cache", "Pragma": "no-cache", "User-Agent": "CrestoDigital-Pages-Verification/1.0" },
+        signal: AbortSignal.timeout(15000),
+        redirect: "follow"
+      });
+      const body = await response.text();
+      console.log("PUBLIC_SITE_VERIFY " + JSON.stringify({
+        path: test.path, status: response.status, finalUrl: response.url,
+        latestContent: body.includes(test.needle), bytes: body.length,
+        cacheControl: response.headers.get("cache-control"),
+        etag: response.headers.get("etag"),
+        age: response.headers.get("age"), xCache: response.headers.get("x-cache"),
+        date: response.headers.get("date"), server: response.headers.get("server")
+      }));
+    } catch (e) {
+      console.log("PUBLIC_SITE_VERIFY " + JSON.stringify({ path: test.path, error: String(e) }));
+    }
+  }
+}
