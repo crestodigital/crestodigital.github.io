@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
-<title id="t">Organic growth for travel agencies</title><desc id="d">A refined illustrated travel booking journey showing discovery, planning, enquiry, booking and referrals, against a mountainous travel scene.</desc>
+<title id="t">Organic Growth for Travel Agencies</title><desc id="d">A refined illustrated travel booking journey showing discovery, planning, enquiry, booking and referrals, against a mountainous travel scene.</desc>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071A31"/><stop offset=".62" stop-color="#0C3555"/><stop offset="1" stop-color="#11677B"/></linearGradient>
 <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123A5A"/><stop offset="1" stop-color="#08253E"/></linearGradient>
@@ -12,14 +12,13 @@
 <path d="M0 693 L186 506 308 622 463 400 676 707 882 509 1050 674 1280 423 1463 601 1600 475 V900 H0Z" fill="#1A5876" opacity=".38"/>
 <path d="M0 784 L260 617 471 766 684 580 914 795 1108 628 1396 759 1600 665 V900 H0Z" fill="#163C60" opacity=".70"/>
 <path d="M0 845 Q350 725 762 858 T1600 806 V900 H0Z" fill="#07243A" opacity=".8"/>
-<g filter="url(#shadow)">
-<rect x="125" y="118" width="1350" height="646" rx="34" fill="url(#card)" stroke="#5DBACD" stroke-opacity=".36"/>
-<rect x="158" y="153" width="1284" height="576" rx="24" fill="#09263E" opacity=".88"/>
-</g>
+<!-- Free-floating travel sales journey: no outer frame -->
+<path d="M95 460 Q680 420 1480 495 V743 Q715 775 95 729 Z" fill="#092B49" opacity=".36"/>
+<circle cx="1225" cy="194" r="185" fill="#18A8BB" opacity=".075"/>
 <text x="216" y="214" fill="#91E4ED" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" letter-spacing="4">THE ORGANIC TRAVEL SALES JOURNEY</text>
-<text x="216" y="298" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-weight="750" font-size="65">From inspiration</text>
-<text x="216" y="371" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-weight="750" font-size="65">to confirmed bookings.</text>
-<text x="216" y="425" fill="#B9D5E3" font-family="Arial,Helvetica,sans-serif" font-size="24">SEO  ·  Social media  ·  Trust  ·  Sales  ·  Loyalty</text>
+<text x="216" y="298" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-weight="750" font-size="65">From Inspiration</text>
+<text x="216" y="371" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-weight="750" font-size="65">to Confirmed Bookings.</text>
+<text x="216" y="425" fill="#B9D5E3" font-family="Arial,Helvetica,sans-serif" font-size="24">SEO  ·  Social Media  ·  Trust  ·  Sales  ·  Loyalty</text>
 <path d="M250 572 C470 518 557 664 772 595 S1120 518 1352 592" stroke="#38D0DD" stroke-width="5" fill="none" stroke-dasharray="10 16"/>
 <g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
 <g transform="translate(265 557)"><circle r="46" fill="#16A4B7"/><circle r="29" fill="none" stroke="#fff" stroke-width="4"/><path d="M0 -20 V20 M-20 0 H20" stroke="#fff" stroke-width="3"/><text y="80" font-size="22" fill="#fff" font-weight="700">Discover</text></g>
