@@ -154,51 +154,75 @@ body{overflow-x:hidden}
 @media(min-width:1081px){.article-hero-grid{grid-template-columns:minmax(0,1.02fr) minmax(370px,.98fr)!important;gap:48px!important}}
 @media(max-width:620px){.article-hero .article-hero-grid h1{font-size:clamp(28px,8vw,35px)!important;line-height:1.17!important}.article-hero{padding-top:34px!important;padding-bottom:43px!important}.article-body .standfirst{font-size:18px!important}.article-hero .meta{gap:6px}}
 </style>
-<style id="full-width-article-headings-2026">
-/* Editorial layout: sections and illustrations fill the available article column. */
-.article-body{min-width:0;width:100%;max-width:none}
-.article-body > h2{
+<style id="article-framed-layout-2026">
+/* Maintain the site's original centered 1350px article frame.
+   The table of contents and the article have their own controlled columns. */
+.article-shell.container{
+  display:grid;
+  width:min(1350px,calc(100% - 48px));
+  max-width:1350px;
+  grid-template-columns:260px minmax(0,900px);
+  column-gap:72px;
+  justify-content:center;
+  align-items:start;
+  margin-left:auto;
+  margin-right:auto;
+  padding:72px 0 110px;
+}
+.article-shell .toc{
+  width:100%;
+  min-width:0;
+  max-width:260px;
+  box-sizing:border-box;
+}
+.article-shell .article-body{
   display:block;
   width:100%;
-  max-width:none!important;
+  max-width:900px;
+  min-width:0;
+  box-sizing:border-box;
+}
+.article-shell .article-body > h2{
+  display:block;
+  width:100%;
+  max-width:100%!important;
   min-width:0;
   box-sizing:border-box;
   overflow-wrap:break-word;
   white-space:normal;
-  text-wrap:pretty;
+  text-wrap:balance;
 }
-@media(min-width:1081px){
+/* Preserve the original two-column layout without overflow on smaller laptops. */
+@media (min-width:1081px) and (max-width:1320px){
   .article-shell.container{
-    width:min(1480px,calc(100% - 64px));
-    max-width:none;
-    grid-template-columns:248px minmax(0,1fr);
-    gap:clamp(38px,3.5vw,64px);
-    justify-content:stretch;
+    width:calc(100% - 40px);
+    grid-template-columns:235px minmax(0,1fr);
+    column-gap:40px;
   }
-  .article-body > p,
-  .article-body > h3,
-  .article-body > .answer-box,
-  .article-body > .editorial-insight{
-    max-width:940px;
-  }
+  .article-shell .toc{max-width:235px;}
 }
-@media(min-width:651px) and (max-width:1080px){
+/* As on the original article, the TOC becomes a compact chapter menu on tablets. */
+@media (max-width:1080px){
   .article-shell.container{
     display:block;
-    width:min(100% - 40px,1040px);
-    max-width:none;
+    width:min(900px,calc(100% - 40px));
+    max-width:900px;
+    padding:42px 0 75px;
   }
+  .article-shell .toc{display:none;}
+  .article-shell .article-body{width:100%;max-width:900px;}
 }
-@media(max-width:650px){
+@media (max-width:650px){
   .article-shell.container{
-    display:block;
     width:calc(100% - 30px);
     max-width:none;
+    padding:36px 0 66px;
   }
-  .article-body > h2{
+  .article-shell .article-body > h2{
+    width:100%;
+    max-width:100%!important;
     font-size:clamp(26px,6.7vw,33px);
     line-height:1.24;
-    overflow-wrap:break-word;
   }
 }
 </style>
