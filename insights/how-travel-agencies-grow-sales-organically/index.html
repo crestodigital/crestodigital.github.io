@@ -154,6 +154,54 @@ body{overflow-x:hidden}
 @media(min-width:1081px){.article-hero-grid{grid-template-columns:minmax(0,1.02fr) minmax(370px,.98fr)!important;gap:48px!important}}
 @media(max-width:620px){.article-hero .article-hero-grid h1{font-size:clamp(28px,8vw,35px)!important;line-height:1.17!important}.article-hero{padding-top:34px!important;padding-bottom:43px!important}.article-body .standfirst{font-size:18px!important}.article-hero .meta{gap:6px}}
 </style>
+<style id="full-width-article-headings-2026">
+/* Editorial layout: sections and illustrations fill the available article column. */
+.article-body{min-width:0;width:100%;max-width:none}
+.article-body > h2{
+  display:block;
+  width:100%;
+  max-width:none!important;
+  min-width:0;
+  box-sizing:border-box;
+  overflow-wrap:break-word;
+  white-space:normal;
+  text-wrap:pretty;
+}
+@media(min-width:1081px){
+  .article-shell.container{
+    width:min(1480px,calc(100% - 64px));
+    max-width:none;
+    grid-template-columns:248px minmax(0,1fr);
+    gap:clamp(38px,3.5vw,64px);
+    justify-content:stretch;
+  }
+  .article-body > p,
+  .article-body > h3,
+  .article-body > .answer-box,
+  .article-body > .editorial-insight{
+    max-width:940px;
+  }
+}
+@media(min-width:651px) and (max-width:1080px){
+  .article-shell.container{
+    display:block;
+    width:min(100% - 40px,1040px);
+    max-width:none;
+  }
+}
+@media(max-width:650px){
+  .article-shell.container{
+    display:block;
+    width:calc(100% - 30px);
+    max-width:none;
+  }
+  .article-body > h2{
+    font-size:clamp(26px,6.7vw,33px);
+    line-height:1.24;
+    overflow-wrap:break-word;
+  }
+}
+</style>
 </head><body id="top"><div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div><a class="skip-link" href="#article">Skip to article</a><header class="site-header"><div class="container nav-wrap"><a class="brand" href="/" aria-label="Cresto Digital home"><img src="/assets/images/cresto-icon.webp" width="42" height="48" alt="Cresto Digital icon"><span class="brand-copy"><strong>CRESTO</strong><span>DIGITAL</span></span></a><nav class="primary-nav" aria-label="Primary navigation"><a href="/">Home</a><a href="/#services">Services</a><a href="/insights/">Insights</a><a class="nav-cta" href="/#contact">Talk to an SEO Specialist</a></nav></div></header>
 <nav class="breadcrumb-bar" aria-label="Breadcrumb"><div class="container"><ol><li><a href="/">Home</a></li><li><a href="/insights/">Insights</a></li><li aria-current="page">Travel Agency Organic Growth</li></ol></div></nav>
 <main id="article">
